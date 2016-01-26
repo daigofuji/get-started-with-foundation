@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Get started with Foundation 6</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700|Ubuntu+Mono:400,700,400italic">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Get started with **Foundation 6**
+
+.small[[@CASCADE BOS meetup](http://www.meetup.com/cascadebos/events/225729822/) | Tue., Jan. 26, 2016]
+
+Daigo Fujiwara, .small[Web Developer, HBR, Founder Baseball Hack Day]
+
+@DaigoFuji
+
+---
+class: center, middle, white
+
+# CSS Frontend Frameworks **SUCK**.
+
+
+---
+class: center, middle, inverse
+
+# Why? 
+
+---
+class: middle, white
+
+* Code bloat
+* Unnecessary and unused CSS
+* Prescribed or Opinionated
+* Design for all is impossible
+
+---
+class: center, middle, big-img, white 
+![img](img/framework.png)
+
+[http://usablica.github.io/front-end-frameworks/compare.html](http://usablica.github.io/front-end-frameworks/compare.html)
+
+
+---
+class: center, middle, inverse
+
+# What's **good** about it?
+
+---
+class: middle, white
+
+* Start a quick prototype, or simple site
+* Something to build upon
+* Crowed-tested cross browser functionality
+* Community to ask questions
+* Open-sourced, crowd-contributed modern web technology freely available
+
+---
+class: center, middle, white
+
+# Hackathon?
+
+
+---
+class: center, middle, white, big-img
+
+![img](img/BBHD-2015-red.png)
+
+**Baseball Hack Day** Fun, friendly, free, one-day, on-site hacking/coding competition for baseball fans, happening in Boston March 19, 2016.
+
+---
+class: center, middle, white, big-img
+
+<img src="img/solved.gif" alt="" width="1200">
+
+---
+class: center, middle, white
+
+### jekyll-foundation-6-starter
+
+[github.com/daigofuji/jekyll-foundation-6-starter](https://github.com/daigofuji/jekyll-foundation-6-starter)
+
+![img](img/my-git-repo.png)
+
+---
+class: center, middle, white
+
+## Start [github page](https://pages.github.com/) website powered by [Jekyll](http://jekyllrb.com/docs/quickstart/) using [Foundation/SCSS](http://foundation.zurb.com/sites/docs/installation.html#command-line-tool.html) in under 5 minutes! 
+
+---
+class: center, middle, inverse
+
+# Ingredients 
+
+---
+class: center, middle, white
+
+![img](img/github.png)
+
+---
+class: center, middle, white
+
+![img](img/terminal.png)
+
+---
+class: center, middle, white, big-img
+
+
+![img](img/githubpages.png)
+https://pages.github.com/
+
+---
+class: center, middle, white, big-img
+
+
+![img](img/jekyll.png)
+https://jekyllrb.com/
+
+Github's doc on [how to use Jekyll on Github Pages](https://help.github.com/articles/using-jekyll-with-pages) is also helpful. 
+
+---
+class: center, middle, white, big-img
+
+![img](img/foundation.png)
+## Zurb Foundation
+http://foundation.zurb.com/
+
+---
+class: center, middle, white
+
+![img](img/sass.png)
+
+
+http://foundation.zurb.com/sites/docs/sass.html
+
+
+---
+class: center, middle, white, big-img
+![img](img/foundation6.jpg)
+
+---
+class: middle, white
+
+What's new in Foundation 6
+
+.small[- 50% Code Reduction - Half the Size of Foundation 5 
+- A11y Friendly - The Base for Fully Accessible Sites 
+- Fewer Style Overrides - The Styles You Need. None That You Don't 
+- Customizable Sass Grid - Any Combination of Columns You Need 
+- Motion UI - Easily Create Animations and Transitions 
+- Flexible Navigation patterns - Customizable and Modular Navigation 
+- Modular JavaScript Utilities - Create Your Own JS Plugins 
+- Tons of new Building Blocks and Templates - A Growing Library of Resources 
+- Optional Flexbox Grid - A Slick New Grid]
+
+
+
+---
+class: center, middle
+
+## For User & Organization Pages
+See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/)
+
+https://help.github.com/articles/user-organization-and-project-pages/
+
+---
+class: middle, white
+
+1. Fork or copy this repo to your user or project
+2. From the `settings` rename the repo to `username.github.io` naming scheme. (For this you need to use `master` branch)
+
+---
+class: center middle
+
+## For Project Pages
+See [github documentation](https://help.github.com/articles/user-organization-and-project-pages/#project-pages)
+
+https://help.github.com/articles/user-organization-and-project-pages/#project-pages
+
+---
+class: middle, white
+
+1. Create a `gh-pages` branch
+
+`git checkout -b gh-pages`
+
+2. [Download the contents of this repo](https://github.com/daigofuji/jekyll-foundation-6-starter/archive/master.zip)
+3. Replace the entire branch contents with unzipped stuff
+4. Add, Commit then Publish the branch to github
+
+`git push --set-upstream origin gh-pages`
+
+---
+class: middle, white
+
+### To edit contents:
+1. edit `_config.yml`
+2. edit html/md files (`_layouts/default.html` is the base)
+3. edit sass and run `gulp` (Try [editing `scss/_stettings.scss`](http://foundation.zurb.com/sites/docs/sass.html))
+4. edit `_include/nav.html` 
+
+---
+class: center, middle, inverse
+
+# Tools used
+
+---
+class: center, middle, white, big-img
+![img](img/nodejs.png)
+https://nodejs.org/en/
+
+
+---
+class: middle, white, big-img
+
+Easiest way to install [node.js](https://nodejs.org/en/) is to use [Homebrew](http://brew.sh/)
+
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+then 
+
+`brew install node`
+
+---
+class: center, middle, white, big-img
+
+![img](img/gulp.png)
+
+Install npm and gulp globally by running 
+
+`sudo npm install npm gulp -g`
+
+---
+class: center, middle, white
+
+Run gulp to compile css from sass by simply run `gulp` from your terminal within your repo. 
+
+It will launch watch by default. <code>control-c</code> to stop.
+
+If you only want the css compiled once, run `gulp sass`
+
+---
+class: center, middle, white
+
+To run Jekyll locally to test your website while developing*: 
+
+`bundle exec jekyll serve --watch`
+
+Your website should be viewable by going to [localhost:4000](http://localhost:4000/)
+
+.small[\* You need ruby. `brew install ruby` and `sudo gem install bundler` then `sudo bundle install`. [Mac OS X 10.11 nokogiri trouble](http://stackoverflow.com/questions/23668684/failed-to-build-gem-native-extension-when-i-run-bundle-install)]
+
+
+---
+class: middle, center, white, big-img
+<img src="img/solved.gif" alt="" width="500">
+
+**Thank you!** <br>https://github.com/daigofuji/jekyll-foundation-6-starter
+
+<img src="img/BBHD-2015-red.png" alt="" width="250">
+
+
+    </textarea>
+    <script src="js/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({ ratio: "16:9" });
+    </script>
+  </body>
+</html>

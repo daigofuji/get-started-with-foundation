@@ -1,0 +1,146 @@
+/*
+colors:
+red: #9e0926;
+blue: #012340;
+gray: #8596a6;
+white: #f2f2f2;
+*/
+body {
+  color: #012340;
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 300;
+  line-height: 1.4;
+}
+.bold {
+ font-weight: 700;
+}
+.semi-bold {
+  font-weight: 400;
+}
+.light {
+  font-weight: 200;
+}
+h1, h2, h3 {
+  font-family: 'Yanone Kaffeesatz';
+  font-weight: 200;
+  margin: .2em 0;
+}
+p {
+  margin: .8em 0;
+}
+ul {
+  margin-bottom: .5em;
+  margin-top: .5em;
+}
+img, video {
+  max-width: 100%;
+  max-height: 31.250rem;
+}
+a, a:hover, a:visited {
+  color: #9e0926;;
+}
+.nihongo,
+.jp {
+  font-family: 'Noto Sans Japanese', serif;
+}
+.inverse {
+  background: #9e0926 !important;
+  color: #f2f2f2;
+  text-shadow: 0 0 20px #333;
+}
+
+.white {
+  background: #fff !important;
+  color: #012340;
+  text-shadow: 0 0 5px #eee;
+}
+.black {
+  background: #272726 !important;
+  color: #fff;
+}
+.gray {
+  background: #e8e8e8 !important;
+}
+.inverse h1, .inverse h2 {
+  color: #f2f2f2;
+  line-height: 0.8;
+}
+.remark-code, .remark-inline-code {
+  font-family: 'Ubuntu Mono';
+  font-size: 2rem;
+  color: #066;
+}
+.remark-slide-content {
+  background: url(img/diagmonds-light.png) #8596a6;
+  font-size: 3rem;
+  padding: 1em 3em;
+}
+.remark-slide-content.big-img {
+  padding: 0 2em;
+}
+.remark-slide-content.full-img {
+  padding: 0;
+}
+.remark-slide-content.big-img p,
+.remark-slide-content.full-img p {
+  margin: 0;
+}
+.remark-slide-content.big-img img,
+.remark-slide-content.big-img video,
+.remark-slide-content.full-img img,
+.remark-slide-content.full-img video {
+  max-height: 62.500rem;
+}
+.remark-slide-content.smaller-text li{
+  font-size: 2.875rem;
+}
+.remark-slide-content h1 {
+  font-size: 8.250rem;
+  line-height: 1;
+}
+.remark-slide-content h2 {
+  font-size: 5.313rem;
+  line-height: 1;
+}
+.remark-slide-content h3 {
+  font-size: 4.063rem;
+  line-height: 1;
+}
+.remark-code {
+  font-size: 1.5rem;
+}
+.remark-slide-number {
+   font-size: 1.250rem;
+}
+.small {
+  font-size: 80%;
+  line-height: 1.2;
+}
+.smaller {
+  font-size: 70%;
+  line-height: 1.1;
+}
+.img-200 {
+  width: 12.500rem;
+}
+.man {
+  margin: 0;
+}
+.credit {
+  font-size: 0.813rem;
+}
+.text-heavy {
+  font-size: 1.5rem;
+}
+
+/* Two-column layout */
+.left-column {
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
